@@ -1,0 +1,17 @@
+.presentacion{
+    margin: auto;
+    width: 80%;
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+#title, #description, #url-imagen{
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+#btn-submit{
+    display: block;
+    margin: auto;
+}
