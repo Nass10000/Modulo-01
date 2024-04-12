@@ -1,10 +1,44 @@
+
+body{
+    background-color: beige;
+}
+.titulo{
+    width: 80%;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    color: rgb(155, 223, 37);
+    background-color: black;
+    border-radius: 3px;
+    border: 1px solid greenyellow;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
 .presentacion{
     margin: auto;
-    width: 80%;
-    
-    border: 2px solid black;
+    width: 70%;
+    border: 2px solid white;
     border-radius: 5px;
-    background-color: white;
+    background-color: black;
+    color: rgb(173, 173, 229);
+    padding: 3em ;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+.mis-tecnologias{
+text-align: center;
+font-weight: bold;
+color: rgb(155, 223, 37);
+display: flex;
+
+
+
+}
+.mis-tecnologias div{
+    align-items: center;
+}
+.mis-tecnologias img{
+    width: 100px;
+    height: 170px;
+    margin-right: 40px;
 }
 #title, #description, #url-imagen{
     display: block;
@@ -14,4 +48,17 @@
 #btn-submit{
     display: block;
     margin: auto;
+}
+.card-container{
+    width: 110px;
+    height: 140px;
+    border: 1px solid black;
+    margin: auto;
+    display: inline-block;
+    border-radius: 5px;80%
+    background-color: aqua;
+    text-align: center;
+    padding: 2px ;
+    margin: 5px; 
+    
 }
