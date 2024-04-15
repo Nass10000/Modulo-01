@@ -14,7 +14,7 @@ body{
 }
 .presentacion{
     margin: auto;
-    width: 70%;
+    width: 75%;
     border: 2px solid white;
     border-radius: 5px;
     background-color: black;
@@ -24,41 +24,104 @@ body{
     text-align: justify;
 }
 .mis-tecnologias{
-text-align: center;
-font-weight: bold;
-color: rgb(155, 223, 37);
-display: flex;
-
-
-
-}
-.mis-tecnologias div{
+    
+    text-align: center;
+    font-weight: bold;
+    color: rgb(155, 223, 37);
+    display: flex;
+    justify-content: center; /* Alineación horizontal */
     align-items: center;
+    
+
+
+
 }
+
+
 .mis-tecnologias img{
-    width: 100px;
-    height: 170px;
+    width: 200px;
+    height: 220px;
     margin-right: 40px;
+}
+
+.mis-tecnologias img:hover{
+    width: 210px;
+    height: 230px;
+    border: 2px solid white;
+    box-shadow: 1px 2px 2px 1px white;
+    
+}
+.mis-actividades{
+    margin-top: 80px;
 }
 #title, #description, #url-imagen{
     display: block;
     margin: auto;
     margin-bottom: 5px;
+    width: 20em;
+    overflow-x: auto;
+    white-space: nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#title{
+    text-align: center;
+}
+#description{
+    height: 5em;
+    text-align: center;
 }
 #btn-submit{
     display: block;
     margin: auto;
 }
+#url-imagen{
+    text-align: center;
+}
 .card-container{
-    width: 110px;
-    height: 140px;
+    width: 250px;
+    height: 300px;
     border: 1px solid black;
     margin: auto;
     display: inline-block;
-    border-radius: 5px;80%
-    background-color: aqua;
+    border-radius: 5px;
+    background-color: #e9ecef;
     text-align: center;
     padding: 2px ;
     margin: 5px; 
+
+    display: inline-block;
+    flex-shrink: 0;
+    align-items: center;
+    box-sizing: border-box;
+
     
+}
+
+.card-container p{
+    width: 80%;
+    height: 20px;
+    border-radius: 3px;
+    background-color: white;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 500;
+    border: 1px solid black;
+    margin: 15px auto;
+}
+.card-description{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+.card-img{
+    margin-top: 15px;
+    width: 180px;
+    height: 185px;
+    border-radius: 5px;
+}
+.close-card{
+    margin-top: 3px;
+    display: block;
+    align-items: center;
 }
