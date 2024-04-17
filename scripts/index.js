@@ -1,3 +1,10 @@
+// seleccion de los elementos
+
+
+
+
+
+
 
 class Activity {
     constructor(id, title, description, url) {
