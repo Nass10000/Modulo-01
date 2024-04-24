@@ -1,9 +1,20 @@
 
-//Elemento que desencadena la acción
-const boton = document.getElementById("btn-submit");
+    //Elemento que desencadena la acción
+    function getButton() {
+        document.getElementById("btn-submit"); 
+    }
+        
+     
 
-// Poner a la escucha el evento que desencadena todas las acciones
-boton.addEventListener("click", handler); 
+    // Poner a la escucha el evento que desencadena todas las acciones
+    if(typeof window !== 'undefined') {
+
+        //getButton().addEventListener("click", handler);
+        
+    }
+    
+
+
 
 function handler() {
     const title = document.getElementById("title").value.trim();
@@ -103,3 +114,5 @@ class Repository {
 }
 
 const repository = new Repository(); // Instancia de Repository
+module.exports={Activity,Repository};
+
