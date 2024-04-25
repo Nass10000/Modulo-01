@@ -9,7 +9,7 @@
     // Poner a la escucha el evento que desencadena todas las acciones
     if(typeof window !== 'undefined') {
 
-        //getButton().addEventListener("click", handler);
+        getButton().addEventListener("click", handler);
         
     }
     
