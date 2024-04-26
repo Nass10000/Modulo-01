@@ -1,17 +1,17 @@
 
     //Elemento que desencadena la acción
-    function getButton() {
-        document.getElementById("btn-submit"); 
-    }
-        
-     
+function getButton() {
+    return document.getElementById("btn-submit"); 
+}
+                                
+                            
 
-    // Poner a la escucha el evento que desencadena todas las acciones
-    if(typeof window !== 'undefined') {
-
-        getButton().addEventListener("click", handler);
-        
-    }
+// Poner a la escucha el evento que desencadena todas las acciones
+if(typeof window !== 'undefined') {
+    let button=getButton();
+    button.addEventListener("click", handler);
+                                
+ }
     
 
 
