@@ -1,29 +1,29 @@
 # Modulo-01
 
-# Proyecto Módulo 1 - Portafolio Web Personal
+# 🌐 Proyecto Módulo 1 - Portafolio Web Personal
 
-Este proyecto corresponde al **Módulo 1** de una formación en desarrollo web. Se trata de una página web estática construida con HTML, CSS y pruebas automatizadas con Jasmine. El sitio actúa como una carta de presentación personal y portafolio del desarrollador.
+Este proyecto corresponde al **Módulo 1** de una formación en desarrollo web. Se trata de una página web estática construida con HTML, CSS y pruebas automatizadas con Jasmine. El sitio funciona como una carta de presentación profesional y portafolio inicial.
 
-## 🧑 Sobre el autor
+## 👨‍💻 Sobre el autor
 
-> Mi nombre es Nassim Wessin. Soy apasionado por la tecnología, con formación en electrónica e ingeniería mecatrónica. Descubrí el interés por la programación a través del desarrollo con Arduino y desde entonces he profundizado en este mundo.
+> Mi nombre es Nassim Wessin, profesional en mercadeo con sólida experiencia en gestión administrativa. Me reinventé en el mundo de la tecnología, encontrando en la programación una nueva pasión y un camino profesional enfocado en el desarrollo backend.
 
-## 🚀 Tecnologías usadas
+## 🚀 Tecnologías utilizadas
 
-- **HTML5** y **CSS3** para la estructura y el diseño visual.
-- **Jasmine** para pruebas automatizadas de funcionalidades.
-- **Live Server** para desarrollo local con recarga en vivo.
+- **HTML5** y **CSS3** para la estructura visual y diseño.
+- **Jasmine** para pruebas automatizadas.
+- **Live Server** para entorno de desarrollo local con recarga en tiempo real.
 
 ## 📁 Estructura del proyecto
 
 - `index.html`: Página principal con presentación personal.
-- `styles/`: Carpeta con hojas de estilo y recursos gráficos.
-- `spec/`: Carpeta de pruebas automatizadas usando Jasmine.
-- `package.json`: Gestión de dependencias y scripts.
+- `styles/`: Hojas de estilo y recursos gráficos.
+- `spec/`: Pruebas automatizadas con Jasmine.
+- `package.json`: Configuración de scripts y dependencias.
 
 ## 🧪 Scripts disponibles
 
 ```bash
-npm install     # Instala las dependencias
-npm start       # Lanza el servidor local (live-server)
-npm test        # Ejecuta las pruebas con Jasmine
+npm install     # Instala dependencias
+npm start       # Inicia servidor local (live-server)
+npm test        # Ejecuta pruebas con Jasmine
