@@ -6,7 +6,7 @@ Este proyecto corresponde al **Módulo 1** de una formación en desarrollo web. 
 
 ## 🧑 Sobre el autor
 
-> Mi nombre es Diego Alejandro Herrera Díaz. Soy apasionado por la tecnología, con formación en electrónica e ingeniería mecatrónica. Descubrí el interés por la programación a través del desarrollo con Arduino y desde entonces he profundizado en este mundo.
+> Mi nombre es Nassim Wessin. Soy apasionado por la tecnología, con formación en electrónica e ingeniería mecatrónica. Descubrí el interés por la programación a través del desarrollo con Arduino y desde entonces he profundizado en este mundo.
 
 ## 🚀 Tecnologías usadas
 
