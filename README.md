@@ -2,7 +2,7 @@
 
 # 🌐 Proyecto Módulo 1 - Portafolio Web Personal
 
-Este proyecto corresponde al **Módulo 1** de una formación en desarrollo web. Se trata de una página web estática construida con HTML, CSS y pruebas automatizadas con Jasmine. El sitio funciona como una carta de presentación profesional y portafolio inicial.
+Este proyecto corresponde al **Módulo 1** de una formación en desarrollo web. Se trata de una página web estática construida con HTML, CSS, javascript y pruebas automatizadas con Jasmine. El sitio funciona como una carta de presentación profesional y portafolio inicial.
 
 ## 👨‍💻 Sobre el autor
 
